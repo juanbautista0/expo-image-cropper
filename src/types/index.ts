@@ -58,6 +58,3 @@ export interface Translate {
   translationX: number
   translationY: number
 }
-
-// eslint-disable-next-line no-undef
-export const ImageEditor: React.FC<ImageEditorProps>
