@@ -1,0 +1,38 @@
+{
+  "name": "expo-image-cropper",
+  "version": "1.0.0",
+  "description": "An Expo package for easy and efficient image cropping.",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "react-native",
+    "expo",
+    "cropper",
+    "image-cropper"
+  ],
+  "author": "Juan Bautista <soyjuanbautista0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.69.1",
+    "react-native-unimodules": "^0.11.0",
+    "typescript": "^5.1.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "expo-image-manipulator": "~11.3.0",
+    "recoil": "^0.7.7",
+    "react-native-gesture-handler": "~2.12.0",
+    "@expo/vector-icons": "^13.0.0"
+  }
+}
